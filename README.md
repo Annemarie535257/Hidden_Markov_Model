@@ -1,12 +1,12 @@
 # HMM Assignment Submission Package
 
-## 🎉 **Updated with Google Drive Integration!**
+## **Updated with Google Drive Integration!**
 
 This submission package now includes **Google Drive integration** for easy dataset access and notebook execution in Google Colab.
 
 ## Deliverables Checklist
 
-### ✅ Required Deliverables
+### Required Deliverables
 
 1. **Dataset files (.csv) from Sensor Logger**
    - Location: `dataset/` folder
@@ -21,7 +21,7 @@ This submission package now includes **Google Drive integration** for easy datas
    - Features: Feature extraction, model training, evaluation, visualization
    - **NEW**: Google Drive integration for automatic dataset loading
 
-### 📊 Additional Deliverables (Bonus)
+### Additional Deliverables (Bonus)
 
 4. **Overfitting Prevention Implementation**
    - Integrated into the main notebook
@@ -38,38 +38,38 @@ This submission package now includes **Google Drive integration** for easy datas
    - Contains: Project overview, setup instructions, usage guide
    - Technical details: Implementation architecture, results analysis
 
-## 🎯 Assignment Requirements Met
+## Assignment Requirements Met
 
-### ✅ Background and Motivation
+### Background and Motivation
 - Clear problem statement and motivation for HMM in HAR
 - Literature context and application areas
 - Dataset overview and characteristics
 
-### ✅ Data Collection and Preprocessing Steps
+### Data Collection and Preprocessing Steps
 - Detailed data collection process using Sensor Logger
 - Comprehensive feature extraction pipeline
 - Time-domain and frequency-domain features
 - Windowing strategy and data quality assessment
 
-### ✅ HMM Setup and Implementation Details
+### HMM Setup and Implementation Details
 - Complete model architecture description
 - Overfitting prevention techniques
 - Training process and parameters
 - Viterbi algorithm implementation
 
-### ✅ Results and Interpretation
+### Results and Interpretation
 - Performance metrics and accuracy analysis
 - Transition matrix interpretation
 - Visualization results (heatmaps, confusion matrix, sequences)
 - Per-activity performance breakdown
 
-### ✅ Discussion and Conclusion
+### Discussion and Conclusion
 - Key findings and limitations analysis
 - Comparison with literature
 - Future improvements and recommendations
 - Practical insights for HAR applications
 
-## 📁 File Structure
+## File Structure
 
 ```
 submission/
@@ -91,9 +91,9 @@ submission/
     └── walking_1-2025-10-23_15-05-01/
 ```
 
-## 🚀 How to Run the Implementation
+## How to Run the Implementation
 
-### Option 1: Google Colab (Recommended) 🌟
+### Option 1: Google Colab (Recommended) 
 
 1. **Upload your dataset to Google Drive:**
    - Create a folder called `HMM_Dataset` in your Google Drive
@@ -124,12 +124,12 @@ pip install numpy pandas scipy scikit-learn hmmlearn matplotlib seaborn
 ### Option 3: Google Drive Integration Features
 
 The notebook includes automatic:
-- ✅ Google Drive mounting
-- ✅ Dataset copying from Drive to local Colab environment
-- ✅ Error handling and verification
-- ✅ Clear instructions if dataset not found
+- Google Drive mounting
+- Dataset copying from Drive to local Colab environment
+- Error handling and verification
+- Clear instructions if dataset not found
 
-## 🔧 Google Drive Setup Instructions
+## Google Drive Setup Instructions
 
 ### Quick Setup Guide
 
@@ -166,7 +166,7 @@ The notebook includes automatic:
 
 For detailed instructions, see `GOOGLE_DRIVE_INSTRUCTIONS.md`
 
-## 📈 Key Results Summary
+## Key Results Summary
 
 ### Performance Metrics
 - **Improved Accuracy**: 44.6% (vs 0.0% baseline)
@@ -175,12 +175,12 @@ For detailed instructions, see `GOOGLE_DRIVE_INSTRUCTIONS.md`
 - **Data Augmentation**: 283 → 566 samples (2x increase)
 
 ### Technical Achievements
-- ✅ Complete HMM implementation from scratch
-- ✅ Comprehensive feature extraction pipeline
-- ✅ Overfitting prevention techniques
-- ✅ Viterbi algorithm for state decoding
-- ✅ Robust evaluation and visualization
-- ✅ **NEW**: Google Drive integration for easy access
+- Complete HMM implementation from scratch
+- Comprehensive feature extraction pipeline
+- Overfitting prevention techniques
+- Viterbi algorithm for state decoding
+- Robust evaluation and visualization
+- **NEW**: Google Drive integration for easy access
 
 ### Overfitting Prevention Success
 - **Problem**: Initial model had 0.0% accuracy due to overfitting
@@ -188,7 +188,7 @@ For detailed instructions, see `GOOGLE_DRIVE_INSTRUCTIONS.md`
 - **Result**: Achieved 44.6% accuracy with limited data
 - **Impact**: Demonstrated effective overfitting prevention strategies
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 ### Technical Skills Developed
 1. **HMM Implementation**: Complete understanding of HMM architecture
@@ -206,7 +206,7 @@ For detailed instructions, see `GOOGLE_DRIVE_INSTRUCTIONS.md`
 5. **Evaluation Metrics**: Importance of multiple performance measures
 6. **Cloud Computing**: Benefits of Google Colab for machine learning projects
 
-## 🔬 Technical Implementation Details
+## Technical Implementation Details
 
 ### Feature Extraction
 - **Time-Domain**: 50 features (statistical measures, correlations, energy)
@@ -227,7 +227,7 @@ For detailed instructions, see `GOOGLE_DRIVE_INSTRUCTIONS.md`
 4. **Data Augmentation**: Controlled noise addition
 5. **Model Simplification**: Reduced state and feature space
 
-## 📚 References and Resources
+## References and Resources
 
 ### Academic References
 1. Rabiner, L. R. (1989). A tutorial on hidden Markov models and selected applications in speech recognition.
