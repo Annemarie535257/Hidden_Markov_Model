@@ -40,7 +40,7 @@ Located in the `dataset` folder:
 - **Device**: iPhone 11 Pro
 - **Total Samples**: ~70,000+ sensor readings across all activities
 
-### Unseen/Test Data
+### Unseen/Test Data : This was recorded from a third party aside from Anne Marie & Armand
 Located in the `unseen data` folder:
 - **Activities**: holding, jumping, shaking, still, walking (5 activities)
 - **Total Sequences**: 5 sequences (1 trial per activity)
