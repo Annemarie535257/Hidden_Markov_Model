@@ -48,6 +48,21 @@ Located in the `unseen data` folder:
 - **Same Device**: iPhone 11 Pro with identical sensor specifications
 - **Same Sampling Rate**: 100 Hz
 
+## Team Contributions & Task Allocation
+
+This project represents a collaborative effort with clear task allocation between team members. All contributions align with the GitHub commit history, demonstrating significant and meaningful work from both team members.
+
+| Task Category | Armand | Anne Marie |
+|---------------|--------|------------|
+| **Data Collection & Recording** | Collected training data for holding (10 trials), jumping (10 trials), running (12 trials) | Collected training data for shaking (12 trials), still (12 trials), walking (12 trials) |
+| **Data Preprocessing & Cleaning** | Implemented data loading function (`load_and_clean_data`), handled CSV merging, missing value removal | Activity label normalization, data organization by activity type, validation and quality checks |
+| **Feature Engineering** | Time-domain features: statistics (mean, variance, std, skewness, kurtosis), signal characteristics (SMA, energy, ZCR), percentiles, correlations | Frequency-domain features: FFT analysis, spectral entropy, band-power features (Welch method), step rate detection, high-pass filtering |
+| **HMM Implementation** | Global GMM-HMM architecture design, Baum-Welch algorithm implementation (800 iterations, convergence tuning), transition matrix initialization | Per-class HMM models (6 models, 3 states each), PCA dimensionality reduction (40 components), feature scaling with StandardScaler |
+| **Decoding & Prediction** | Viterbi algorithm implementation, state-to-activity mapping using Hungarian algorithm (`linear_sum_assignment`), majority vote classification | Per-class likelihood scoring, dual-strategy prediction system, confidence calculation and final prediction selection |
+| **Model Evaluation** | Training data decoding and accuracy calculation, per-activity performance metrics, Viterbi accuracy computation | Unseen data evaluation pipeline, sensitivity/specificity calculations, 2-file subset analysis, comprehensive metrics reporting |
+| **Documentation** | Report structure, Detailed sections, technical architecture documentation | README structure, methodology sections, technical architecture documentation |
+
+
 ## Methodology
 
 ### 1. Data Preprocessing
